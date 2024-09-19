@@ -1,0 +1,185 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 24595635800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.Initialize()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Create Employee with all details",
+        "description": "",
+        "id": "employee;create-employee-with-all-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 505539200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I ensure application opened",
+            "match": {
+              "location": "LoginSteps.iEnsureApplicationOpened()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 900591400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login link",
+            "match": {
+              "location": "LoginSteps.iClickLoginLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 445387400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter UserName and Password",
+            "match": {
+              "location": "LoginSteps.iEnterUserNameAndPassword(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "Password"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "admin",
+                  "password"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2382549800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginSteps.iClickLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1534522200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click employeeList link",
+            "match": {
+              "location": "EmployeeSteps.iClickEmployeeListLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1185730100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click createnew button",
+            "match": {
+              "location": "EmployeeSteps.iClickCreatenewButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 498823700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter following details",
+            "match": {
+              "location": "EmployeeSteps.iEnterFollowingDetails(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "Salary",
+                  "DurationWorked",
+                  "Grade",
+                  "Email"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "AutoUser",
+                  "4000",
+                  "30",
+                  "1",
+                  "autouser@ea.com"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "AutoUser2",
+                  "5000",
+                  "40",
+                  "1",
+                  "autouser@ea.com"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80425500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click create button",
+            "match": {
+              "location": "EmployeeSteps.iClickCreateButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Employee",
+    "description": "Responsible for verfiying Benefits, Create Employee,\r\nDelete employee and check if the functionality works",
+    "id": "employee",
+    "keyword": "Feature",
+    "uri": "Employee.feature"
+  },
+  {
+    "line": 1,
+    "name": "LoginFeature",
+    "description": "This feature is responsible for testing all the scenarios for Login of application",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
